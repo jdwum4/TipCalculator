@@ -14,6 +14,8 @@
 		E93C9AB21BD7161000C25BCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93C9AB01BD7161000C25BCB /* LaunchScreen.storyboard */; };
 		E93C9ABD1BD7161000C25BCB /* Dwumfour_TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C9ABC1BD7161000C25BCB /* Dwumfour_TipCalculatorTests.swift */; };
 		E93C9AC81BD7161000C25BCB /* Dwumfour_TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C9AC71BD7161000C25BCB /* Dwumfour_TipCalculatorUITests.swift */; };
+		E9DD839D1BD71A470098ADD9 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DD839C1BD71A470098ADD9 /* AboutViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E9DD839F1BD71A9C0098ADD9 /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DD839E1BD71A9C0098ADD9 /* TipViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E93C9AC31BD7161000C25BCB /* Dwumfour-TipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dwumfour-TipCalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E93C9AC71BD7161000C25BCB /* Dwumfour_TipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dwumfour_TipCalculatorUITests.swift; sourceTree = "<group>"; };
 		E93C9AC91BD7161000C25BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9DD839C1BD71A470098ADD9 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		E9DD839E1BD71A9C0098ADD9 /* TipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				E93C9AA71BD7161000C25BCB /* AppDelegate.swift */,
 				E93C9AA91BD7161000C25BCB /* ViewController.swift */,
 				E93C9AAB1BD7161000C25BCB /* Main.storyboard */,
+				E9DD839E1BD71A9C0098ADD9 /* TipViewController.swift */,
+				E9DD839C1BD71A470098ADD9 /* AboutViewController.swift */,
 				E93C9AAE1BD7161000C25BCB /* Assets.xcassets */,
 				E93C9AB01BD7161000C25BCB /* LaunchScreen.storyboard */,
 				E93C9AB31BD7161000C25BCB /* Info.plist */,
@@ -255,7 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9DD839D1BD71A470098ADD9 /* AboutViewController.swift in Sources */,
 				E93C9AAA1BD7161000C25BCB /* ViewController.swift in Sources */,
+				E9DD839F1BD71A9C0098ADD9 /* TipViewController.swift in Sources */,
 				E93C9AA81BD7161000C25BCB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +407,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Dwumfour-TipCalculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jdwumfour.Dwumfour-TipCalculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,6 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Dwumfour-TipCalculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jdwumfour.Dwumfour-TipCalculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,6 +493,7 @@
 				E93C9ACE1BD7161000C25BCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E93C9ACF1BD7161000C25BCB /* Build configuration list for PBXNativeTarget "Dwumfour-TipCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +502,7 @@
 				E93C9AD11BD7161000C25BCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E93C9AD21BD7161000C25BCB /* Build configuration list for PBXNativeTarget "Dwumfour-TipCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +511,7 @@
 				E93C9AD41BD7161000C25BCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
